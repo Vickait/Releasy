@@ -1,0 +1,18 @@
+﻿<parameters>
+  <parameter name="TestName" description="Test Name" defaultValue="__TEST_NAME__">
+    <parameterValidation kind="AllowEmpty"/>
+    <parameterEntry kind="TextFile" scope=".*\.config$" match="__TEST_NAME__"/>
+  </parameter>
+  <parameter name="TestToken" description="Test Token" defaultValue="__TEST_TOKEN__">
+    <parameterValidation kind="AllowEmpty"/>
+    <parameterEntry kind="TextFile" scope=".*\.config$" match="__TEST_TOKEN__"/>
+  </parameter>
+  <parameter name="GlobalTestName" description="Global Test Name" defaultValue="__GLOBAL_TEST_NAME__">
+    <parameterValidation kind="AllowEmpty"/>
+    <parameterEntry kind="TextFile" scope=".*\.config$" match="__GLOBAL_TEST_NAME__"/>
+  </parameter>
+  <parameter name="GlobalTestToken" description="Global Test Token" defaultValue="__GLOBAL_TEST_TOKEN__">
+    <parameterValidation kind="AllowEmpty"/>
+    <parameterEntry kind="TextFile" scope=".*\.config$" match="__GLOBAL_TEST_TOKEN__"/>
+  </parameter>
+</parameters>
