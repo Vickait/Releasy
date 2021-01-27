@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.ServiceK.WebApi", "Domain.ServiceK.WebApi\Domain.ServiceK.WebApi.csproj", "{06736AE1-BC2B-4940-A7CD-37210834B3C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.ServiceK.WebApi.Tests", "Domain.ServiceK.WebApi.Tests\Domain.ServiceK.WebApi.Tests.csproj", "{3573B9BF-BE2E-4C30-B21A-87E8B5594022}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06736AE1-BC2B-4940-A7CD-37210834B3C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06736AE1-BC2B-4940-A7CD-37210834B3C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06736AE1-BC2B-4940-A7CD-37210834B3C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06736AE1-BC2B-4940-A7CD-37210834B3C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3573B9BF-BE2E-4C30-B21A-87E8B5594022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3573B9BF-BE2E-4C30-B21A-87E8B5594022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3573B9BF-BE2E-4C30-B21A-87E8B5594022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3573B9BF-BE2E-4C30-B21A-87E8B5594022}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2989138F-D8D8-405C-8C37-0B055C6135B7}
+	EndGlobalSection
+EndGlobal
